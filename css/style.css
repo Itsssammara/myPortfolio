@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+ /* .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px; */
+
+/* .navbar{
+    float: right;
+  } */
+  .navbar {
+    background-color: #051650; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 20;
+  }
+  /* nav{
+    display: flex;
+    align-items: center;
+
+  } */
+  .nav li {
+    /* display: inline-block; */
+    font-size: 20px;
+    padding: 20px;
+  }
+/* .container-div{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+} */
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#home {
+    background-image: url('https://i.postimg.cc/dVbwN53b/wall1.jpg');
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+    background-position: center;
+    background-size: cover;
+
+}
+#head{
+    /* font-size: 5em; */
+    /* letter-spacing: 10px; */
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3.5s steps(18) infinite, cursor .4s step-end infinite alternate;
+    color: white;   
+}
+/* cursor blinking */
+@keyframes cursor{
+    50% { border-color: transparent;}
+}
+/* typing effect */
+@keyframes typing {
+    from {width: 0;}
+}
+
+#h2{
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    
+}
+img {
+    border-radius: 60%;
+  }
+
+  img {
+    border: 5px solid #555;
+  }
+
+  .container{
+    color: #051650;
+    font-weight: bold;
+  }
+ 
